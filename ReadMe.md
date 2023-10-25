@@ -114,13 +114,13 @@ Inside the src folder create a folder **pages** where we are going to house all 
 
 In the **pages** folder create four files **Upload, Insert, Read, Files** Each file is going to house its respective function of fetching data. In the **Navigation** folder create a **Nav** file to handle the routing of the above-listed pages.
 
-The notistack we installed earlier is a very convenient tool used for providing notifications. Before we start using it, navigate to the main.jsx file and import the browser router and snackprovider as *import { BrowserRouter } from 'react-router-dom' Import { SnackbarProvider } from 'notistack'* and remove the ReactStrictmode *<React.StrictMode>
+The notistack we installed earlier is a very convenient tool used for providing notifications. Before we start using it, navigate to the main.jsx file and import the browser router and snackprovider as ```javascript import { BrowserRouter } from 'react-router-dom' Import { SnackbarProvider } from 'notistack'``` and remove the ReactStrictmode ```javascript <React.StrictMode>
     <App />
-  </React.StrictMode>,* surrounding the App components nd replace it with the browser router and snackprovider for notistack as follows *<BrowserRouter>
+  </React.StrictMode>```,* surrounding the App components nd replace it with the browser router and snackprovider for notistack as follows ```javascript <BrowserRouter>
     <SnackbarProvider>
       <App />
     </SnackbarProvider>
-  </BrowserRouter>.*
+  </BrowserRouter>```
 
 when everything is done and similar to the code posted run the server and start playing around with firebase
 
