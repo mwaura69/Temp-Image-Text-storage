@@ -10,8 +10,6 @@ This project involves inserting and retrieving text and images from Firestore DB
   - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-- [Credits](#credits)
-- [Acknowledgments](#acknowledgments)
 - [Contact](#contact)
 
 ## Getting Started
