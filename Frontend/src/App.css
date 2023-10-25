@@ -1,0 +1,181 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.ul-div {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.textul-div {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: monospace;
+  font-size: 40px;
+  font-weight: 700;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  z-index: 999; 
+}
+
+.textul-div {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.textul-div:hover {
+  color: #ff6600;
+}
+/* Style the container div */
+.insert-div {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Style the textarea */
+.insert-div textarea {
+  flex: 1; /* Make the textarea take up the remaining space */
+  font-size: 16px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none; /* Disable textarea resizing */
+}
+
+/* Style the image */
+.image-add {
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  cursor: pointer; /* Change the cursor to a pointer on hover for user feedback */
+  margin-left: 10px; /* Add some space between the textarea and image */
+}
+
+.image-upload { 
+  cursor: pointer; 
+  margin-left: 20px
+}
+
+/* Add hover effect for the image */
+.image-upload:hover {
+  filter: brightness(80%); /* Reduce brightness on hover */
+}
+
+/* Add hover effect for the image */
+.image-add:hover {
+  filter: brightness(80%); /* Reduce brightness on hover */
+}
+
+/* Define styles for the container div */
+.map-div {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 70px;
+}
+
+/* Style the paragraph within the container */
+.map-div p {
+  font-size: 30px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+/* Style the trash icon image */
+.trash-image {
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  cursor: pointer; /* Change the cursor to a pointer on hover for user feedback */
+  margin-top: 5px;
+}
+
+/* Add hover effect for the trash icon */
+.trash-image:hover {
+  filter: brightness(80%); /* Reduce brightness on hover */
+}
+.copy-image {
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  cursor: pointer; /* Change the cursor to a pointer on hover for user feedback */
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.copy-image:hover {
+  filter: brightness(80%)
+}
+
+.div-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*==========================================================================================*/y
+
+/* Style for the container */
+.file-input-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for the label/button */
+.custom-file-input {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hide the file input element */
+.custom-file-input input[type='file'] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Change button style when hovering */
+.custom-file-input:hover {
+  background-color: #0056b3;
+}
+.file-drop-zone {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.file-drop-zone.dragging {
+  background-color: #f0f0f0;
+}
+
+.selected-files {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Add your own styling as needed */
