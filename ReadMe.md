@@ -8,7 +8,6 @@ This project involves inserting and retrieving text and images from Firestore DB
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
